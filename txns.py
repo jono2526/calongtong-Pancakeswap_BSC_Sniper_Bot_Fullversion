@@ -79,8 +79,8 @@ class TXN():
 
     def checkToken(self):
         tokenInfos = self.swapper.functions.getTokenInfos(self.token_address).call()
-        buy_tax = round((tokenInfos[0] - tokenInfos[1]) / tokenInfos[0] * 100) 
-        sell_tax = round((tokenInfos[2] - tokenInfos[3]) / tokenInfos[2] * 100)
+        buy_tax = round((tokenInfos[0] - tokenInfos[1]) / tokenInfos[0] * 1000) 
+        sell_tax = round((tokenInfos[2] - tokenInfos[3]) / tokenInfos[2] * 1000)
         if tokenInfos[5] and tokenInfos[6] == True:
             honeypot = False
         else:
