@@ -9,7 +9,7 @@ ETH - 0x0A4A569cfA700Fc2A1d54974712716E537C169ff
 
 BNB - 0x0A4A569cfA700Fc2A1d54974712716E537C169ff
 
-### The second Binance Smart Chain sniper bot with Honeypot checker!  
+## The second Binance Smart Chain sniper bot with Honeypot checker!  
 ![Sniper](Screenshot.png)  
 # Infos
 This Tool only buys/sells with/to BNB but use Multi Hops to get the best Output!
